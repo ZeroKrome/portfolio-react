@@ -176,3 +176,21 @@ body {
   text-decoration: none;
   font-size: 0.9rem;
 }
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+}

@@ -7,6 +7,14 @@ const Projects = () => {
 
       <div className="projects-grid">
         <ProjectCard
+          title="Portfolio personnel"
+          description="Portfolio développé en React pour présenter mes projets et mon profil."
+          tech="React • CSS • Vite"
+          github="https://github.com/ZeroKrome/portfolio-react"
+          demo="#"
+        />
+
+        <ProjectCard
           title="Site vitrine – Restaurant"
           description="Site responsive visant à améliorer la visibilité et la prise de contact d’un restaurant."
           tech="React • CSS"
