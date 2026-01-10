@@ -176,6 +176,10 @@ body {
   text-decoration: none;
   font-size: 0.9rem;
 }
+.project-links a:last-child {
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;

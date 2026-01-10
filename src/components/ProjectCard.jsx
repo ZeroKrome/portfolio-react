@@ -6,12 +6,17 @@ const ProjectCard = ({ title, description, tech, github, demo }) => {
       <span>{tech}</span>
 
       <div className="project-links">
-        <a href={github} target="_blank" rel="noreferrer">
-          GitHub
-        </a>
-        <a href={demo} target="_blank" rel="noreferrer">
-          Démo
-        </a>
+        {github && (
+          <a href={github} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        )}
+
+        {demo && (
+          <a href={demo} target="_blank" rel="noreferrer">
+            Voir le site
+          </a>
+        )}
       </div>
     </div>
   );

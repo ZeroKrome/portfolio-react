@@ -13,6 +13,13 @@ const Projects = () => {
           github="https://github.com/ZeroKrome/portfolio-react"
           demo="#"
         />
+        <ProjectCard
+          title="Site vitrine – Rugby Club Béthunois"
+          description="Conception et développement complet d’un site web vitrine pour un club sportif, réalisé dans le cadre de mon stage."
+          tech="HTML • CSS • JavaScript"
+          github="https://github.com/kevindubois2804/site_club_rugby_bethune"
+          demo="https://rugby-club-bethunois.fr/"
+        />
 
         <ProjectCard
           title="Site vitrine – Restaurant"
