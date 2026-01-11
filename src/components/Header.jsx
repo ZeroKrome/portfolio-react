@@ -17,6 +17,16 @@ const Header = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a
+              href="/cv-mathieu-lemaire.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="cv-link"
+            >
+              CV
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

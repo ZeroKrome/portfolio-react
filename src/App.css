@@ -80,6 +80,11 @@ body {
 .header a:hover {
   color: #38bdf8;
 }
+.cv-link {
+  font-weight: 600;
+  color: #38bdf8;
+}
+
 .projects {
   padding: 4rem 2rem;
   margin-top: 60px;
